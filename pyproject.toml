@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "goit-web2-hw8"
+version = "0.1.0"
+description = ""
+authors = ["Serhii <90449769+Serhii-Olkhovskyi@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "goit_web2_hw8"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+authors = "^0.0.2"
+quotes = "^0.0.3"
+pika = "^1.3.1"
+mongoengine = "^0.27.0"
+faker = "^18.4.0"
+redis = "^4.5.4"
+redis-lru = "^0.1.2"
+configparser = "^5.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
